@@ -121,6 +121,13 @@ python evaluate.py --data_root /path/to/prepared --contrast T1w --folds 0 \
     --ckpt "weights/h2lo_{contrast}_fold{fold}.pth" --out results_T1w_fold0.csv
 ```
 
+Expected results with these weights (fold-0 test split, 7 subjects each; the table above is the 5-fold mean):
+
+| Contrast | PSNR (dB) | SSIM | NCC | Wasserstein | NMI | Hist. NCC | Bhattacharyya | JS |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| T1w | 28.96 | 0.946 | 0.974 | 0.083 | 0.443 | 1.000 | 0.039 | 0.036 |
+| T2w | 28.24 | 0.944 | 0.925 | 0.031 | 0.462 | 1.000 | 0.019 | 0.018 |
+
 ## Contact
 
 Questions and issues: open a GitHub issue or contact Ziqi Gao (ziqi.gao@yale.edu).
