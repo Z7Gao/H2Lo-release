@@ -15,7 +15,7 @@ Official implementation of **H2LO** (MICCAI 2026).
 > Ziqi Gao, Nicha C. Dvornek, Xiaoran Zhang, Gigi Galiana, Hemant D. Tagare, R. Todd Constable
 > MICCAI 2026. [arXiv:2603.24968](https://arxiv.org/abs/2603.24968)
 
-![H2LO framework](fig/h2lo_framework.png)
+![H2LO framework](fig/h2lo_overview.png)
 
 H2LO synthesizes a low-field (LF, 64 mT) MRI volume from a high-field (HF, 3 T) volume of the
 same subject by learning the HF→LF mapping as an operator between function spaces (DeepONet).
