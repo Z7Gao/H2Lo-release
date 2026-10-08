@@ -19,3 +19,6 @@ runs/
 *.pth
 *.ckpt
 *.csv
+
+# released weights
+!weights/*.pth

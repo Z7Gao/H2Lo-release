@@ -107,7 +107,23 @@ Expected results (5-fold test, mean ± std over folds):
 
 ## Pretrained weights
 
-Trained checkpoints for all folds will be released at: `<link to be added>`.
+Checkpoints for fold 0 of both contrasts are included in `weights/` (model weights only, 0.58 M parameters):
+
+| File | Contrast | Fold | Epoch |
+| --- | --- | --- | --- |
+| `weights/h2lo_T1w_fold0.pth` | T1w | 0 | 340 |
+| `weights/h2lo_T2w_fold0.pth` | T2w | 0 | 420 |
+
+Evaluate them on the fold-0 test split:
+
+```bash
+python evaluate.py --data_root /path/to/prepared --contrast T1w --folds 0 \
+    --ckpt "weights/h2lo_{contrast}_fold{fold}.pth" --out results_T1w_fold0.csv
+```
+
+## Contact
+
+Questions and issues: open a GitHub issue or contact Ziqi Gao (ziqi.gao@yale.edu).
 
 ## Acknowledgements
 
