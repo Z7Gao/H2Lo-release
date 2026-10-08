@@ -8,6 +8,7 @@ Official implementation of **H2LO** (MICCAI 2026).
 ## Updates
 
 - **2026-10** · v1 released: the MICCAI 2026 implementation (training, evaluation, paper configuration).
+- **2026-10** · v1.1: pretrained fold-0 weights (T1w, T2w) and their expected results.
 - *Coming soon* · the extended H2LO. Stay tuned!
 
 > **Subject-Specific Low-Field MRI Synthesis via a Neural Operator**
