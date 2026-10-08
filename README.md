@@ -2,6 +2,14 @@
 
 Official implementation of **H2LO** (MICCAI 2026).
 
+> **This is v1: the MICCAI 2026 implementation.** It reproduces the method and results of the
+> conference paper. An extended version of H2LO is in preparation. Stay tuned for more!
+
+## Updates
+
+- **2026-10** · v1 released: the MICCAI 2026 implementation (training, evaluation, paper configuration).
+- *Coming soon* · the extended H2LO. Stay tuned!
+
 > **Subject-Specific Low-Field MRI Synthesis via a Neural Operator**
 > Ziqi Gao, Nicha Dvornek, Xiaoran Zhang, Gigi Galiana, Hemant Tagare, Todd Constable
 > MICCAI 2026. [arXiv:2603.24968](https://arxiv.org/abs/2603.24968)
