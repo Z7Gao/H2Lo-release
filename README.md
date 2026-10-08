@@ -11,7 +11,7 @@ Official implementation of **H2LO** (MICCAI 2026).
 - *Coming soon* · the extended H2LO. Stay tuned!
 
 > **Subject-Specific Low-Field MRI Synthesis via a Neural Operator**
-> Ziqi Gao, Nicha Dvornek, Xiaoran Zhang, Gigi Galiana, Hemant Tagare, Todd Constable
+> Ziqi Gao, Nicha C. Dvornek, Xiaoran Zhang, Gigi Galiana, Hemant D. Tagare, R. Todd Constable
 > MICCAI 2026. [arXiv:2603.24968](https://arxiv.org/abs/2603.24968)
 
 ![H2LO framework](fig/h2lo_framework.png)
@@ -119,7 +119,7 @@ the SIREN layers follow [Sitzmann et al. (NeurIPS 2020)](https://github.com/vsit
 ```bibtex
 @inproceedings{gao2026h2lo,
   title     = {Subject-Specific Low-Field MRI Synthesis via a Neural Operator},
-  author    = {Gao, Ziqi and Dvornek, Nicha and Zhang, Xiaoran and Galiana, Gigi and Tagare, Hemant and Constable, Todd},
+  author    = {Gao, Ziqi and Dvornek, Nicha C. and Zhang, Xiaoran and Galiana, Gigi and Tagare, Hemant D. and Constable, R. Todd},
   booktitle = {Medical Image Computing and Computer Assisted Intervention (MICCAI)},
   year      = {2026}
 }
